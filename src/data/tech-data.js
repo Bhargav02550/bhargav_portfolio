@@ -1,6 +1,10 @@
 // CDN & Images
 export const techData = [
   {
+    name: "AngularJs",
+    image: "https://cdn.worldvectorlogo.com/logos/angular-icon.svg",
+  },
+  {
     name: "ReactJs",
     image: "https://legacy.reactjs.org/logo-og.png",
   },
@@ -16,10 +20,10 @@ export const techData = [
     name: "MongoDB",
     image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
   },
-  {
-    name: "PostgreSQL",
-    image: "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
-  },
+  // {
+  //   name: "PostgreSQL",
+  //   image: "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
+  // },
   {
     name: "Javascript",
     image:
@@ -42,6 +46,10 @@ export const techData = [
   {
     name: "TailwindCSS",
     image: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+  },
+  {
+    name: "Sass",
+    image: "https://cdn.worldvectorlogo.com/logos/sass-1.svg",
   },
   {
     name: "Figma",
@@ -94,7 +102,9 @@ export const techData = [
   },
   {
     name: "Firebase",
-    image: "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
+    // image: "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
+    image:
+      "https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_28dp.png",
   },
   {
     name: "Vite",

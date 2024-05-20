@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="w-80p  2xl:w-60vw flex justify-between  py-8 md:py-10 md:px-10 px-4">
           <div>
             <h1 className="font-lg">
-              I&apos;m <span className="font-bold">nani</span>
+              I&apos;m <span className="font-bold">bhargav</span>
             </h1>
           </div>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
             <a
               className="nav-element"
               target="_blank"
-              href="https://blog.nanisamireddy.dev"
+              href="https://bhargav025.hashnode.dev"
               rel="noreferrer"
             >
               Blog

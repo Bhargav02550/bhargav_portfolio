@@ -2,12 +2,12 @@ export const data = {
   /*
    *  Personal Details Section
    */
-  name: "Nani samireddy",
+  name: "Bhargav",
   tagLine: "an enthusiastic designer & developer based in India",
   aboutMe:
     "I’m designer and developer from India with high passion of creating softwares That looks and works great...",
-  email: "nanisamireddy05@gmail.com",
-  phone: "+91 9490273113",
+  email: "bhargav.pavan.025@gmail.com",
+  phone: "+91 9133485888",
 
   /*
    *  Work Experience Section
@@ -20,14 +20,14 @@ export const data = {
   workExperience: [
     {
       id: 1,
-      title: "We developer | Octaspy",
+      title: "Web developer | Farm2Cart",
       description:
-        "Design and developed an website for Octaspy.com and helped them to actively engage with their customers",
-      link: "https://dev-word.octaspy.com/",
+        "Design and developed an website for users to buy and sell fresh fruit and vegetables from the farm to local farmers all over India.",
+      link: "https://github.com/bhargav02550/",
       techUsed: [
-        "ReactJs",
-        "TailwindCSS",
+        "AngularJs",
         "Git",
+        "Sass",
         "Github",
         "Figma",
         "Github Actions",
@@ -35,11 +35,19 @@ export const data = {
     },
     {
       id: 2,
-      title: "Development Lead | OYOLAVALLEY",
+      title: "Development Lead | ENIGMACV",
       description:
-        "Lead the completed design and development of the website for oyolavally.com which is a travel and tourism company",
-      link: "https://oyola.in/",
-      techUsed: ["Javascript", "HTML", "CSS", "Firebase", "Git", "Github"],
+        "Lead the completed design and development of the website for Enigma Cv application for building realtime AR resume.",
+      link: "http://40.233.84.103:3000",
+      techUsed: [
+        "ReactJs",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "MongoDB",
+        "Git",
+        "Github",
+      ],
     },
   ],
 
