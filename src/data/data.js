@@ -2,7 +2,7 @@ export const data = {
   name: "Bhargav",
   tagLine: "an enthusiastic designer & developer based in India",
   aboutMe:
-    "I’m designer and developer from India with high passion of creating softwares That looks and works great...",
+    "I’m a designer and developer from India with high passion of creating softwares That looks and works great...",
   email: "bhargav.pavan.025@gmail.com",
   phone: "+91 9133485888",
   workExperience: [
