@@ -23,6 +23,21 @@ export const data = {
     },
     {
       id: 2,
+      title: "Kanban Using Angular | Todo Manager",
+      description:
+        "Created Kanban board using Angular which is helping users to track the things and it is integrated with MongoDB  Database for saving the task.",
+      link: "https://todo-manager-sepia.vercel.app/",
+      techUsed: [
+        "Angular",
+        "MongoDB",
+        "ExpressJs",
+        "Typescript",
+        "HTML",
+        "CSS",
+      ],
+    },
+    {
+      id: 3,
       title: "Development Lead | THUB-App",
       description:
         "Lead the completed design and development of the website for Technical Hub app which is helping students to learn new technologies",

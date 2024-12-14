@@ -1,6 +1,10 @@
 // CDN & Images
 export const techData = [
   {
+    name: "Angular",
+    image: "https://cdn.worldvectorlogo.com/logos/angular-icon.svg",
+  },
+  {
     name: "ReactJs",
     image: "https://legacy.reactjs.org/logo-og.png",
   },
@@ -9,8 +13,12 @@ export const techData = [
     image: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
   },
   {
+    name: "Spring Boot",
+    image: "https://cdn.worldvectorlogo.com/logos/spring-boot-1.svg",
+  },
+  {
     name: "ExpressJs",
-    image: "https://cdn.worldvectorlogo.com/logos/express-109.svg",
+    image: "https://icon.icepanel.io/Technology/png-shadow-512/Express.png",
   },
   {
     name: "MongoDB",
@@ -19,6 +27,10 @@ export const techData = [
   {
     name: "PostgreSQL",
     image: "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
+  },
+  {
+    name: "Postman",
+    image: "https://cdn.worldvectorlogo.com/logos/postman.svg",
   },
   {
     name: "Javascript",
@@ -45,8 +57,7 @@ export const techData = [
   },
   {
     name: "Figma",
-    image:
-      "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png",
+    image: "https://cdn.worldvectorlogo.com/logos/figma-icon.svg",
   },
   {
     name: "Git",
@@ -86,11 +97,11 @@ export const techData = [
   },
   {
     name: "PHP",
-    image: "https://cdn.worldvectorlogo.com/logos/php-1.svg",
+    image: "https://www.php.net//images/logos/new-php-logo.svg",
   },
   {
     name: "MySQL",
-    image: "https://cdn.worldvectorlogo.com/logos/mysql-6.svg",
+    image: "https://cdn.worldvectorlogo.com/logos/mysql-3.svg",
   },
   {
     name: "Firebase",

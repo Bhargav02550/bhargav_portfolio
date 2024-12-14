@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="pt-20">
           <h1 className="text-4xl md:text-6xl lg:text-7xl  leading-normal lg:leading-relaxed md:py-30">
             I’m <span className="font-bold">{data.name}</span> - an enthusiastic
-            <span className="font-medium">designer & developer</span> based in
+            <span className="font-medium"> designer & developer</span> based in
             India.
           </h1>
           <p className="text-2xl md:text-3xl lg:text-4xl leading-normal lg:leading-relaxed pb-5 pt-5">

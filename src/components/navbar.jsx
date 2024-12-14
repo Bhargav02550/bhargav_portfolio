@@ -21,32 +21,47 @@ const Navbar = () => {
       className="w-full flex justify-center items-center fixed z-20"
     >
       {!showModal && (
-        <div className="w-full 2xl:w-60vw flex justify-between py-4 md:py-5 md:px-5 px-2 backdrop-blur-lg bg-gray-200 bg-opacity-50 text-center rounded-lg mx-4 my-4">
-          <div>
-            <h1 className="text-lg">
-              I&apos;m <span className="font-bold">Bhargav</span>
-            </h1>
-          </div>
+      
+          <div className="w-full 2xl:w-60vw flex justify-between py-4 md:py-5 md:px-5 px-2 backdrop-blur-lg bg-gray-200 bg-opacity-50 text-center rounded-lg">
+            <div>
+              <div className="cursor-pointer">
+                <h1 className="text-lg">
+                  I&apos;m <span className="font-bold">Bhargav</span>
+                </h1>
+              </div>
+            </div>
 
-          <div className="md:flex hidden gap-10">
-            <a className="nav-element" href="#about">
-              About
-            </a>
-            <a className="nav-element" href="#work">
-              Work
-            </a>
-            <a className="nav-element" href="#contact">
-              Contact
-            </a>
-          </div>
-          <div className="block md:hidden">
-            <span
-              onClick={() => setShowModal(true)}
-              className="material-symbols-outlined cursor-pointer"
-            >
-              menu
-            </span>
-          </div>
+            <div className="md:flex hidden gap-10">
+              <a className="nav-element" href="#about">
+                About
+              </a>
+              <a className="nav-element" href="#work">
+                Work
+              </a>
+              <a className="nav-element" href="#contact">
+                Contact
+              </a>
+            </div>
+            <div className="block md:hidden">
+              <span
+                onClick={() => setShowModal(true)}
+                className="material-symbols-outlined cursor-pointer"
+              >
+                menu
+              </span>
+            </div>
+          
+          {/* <div className="bg-black text-white h-6 flex flex-col justify-center items-center">
+            <marquee direction="right" behavior="scroll" scrollamount="10">
+              <h3 className="text-xl md:text-sm font-bold">
+                Welcome to my website!
+              </h3>
+              ||
+              <h3 className="text-xl md:text-sm font-bold">
+                Thank you for visiting my portfolio.
+              </h3>
+            </marquee>
+          </div> */}
         </div>
       )}
       {/* mobile modal */}
@@ -69,14 +84,6 @@ const Navbar = () => {
           </a>
           <a onClick={() => setShowModal(false)} href="#work">
             Work
-          </a>
-          <a
-            onClick={() => setShowModal(false)}
-            href="https://blog.nanisamireddy.dev"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Blog
           </a>
           <a onClick={() => setShowModal(false)} href="#contact">
             Contact
