@@ -53,7 +53,7 @@ export const data = {
       StartDate:"03/02/2025",
       EndDate:"Present",
       CompanyLogoURL:"https://iamdigitaltrust.com/wp-content/uploads/2022/09/new-logo.jpg",
-      CompanyWebSiteURL:"https://iamdgitaltrust.com",
+      CompanyWebSiteURL:"https://iamdigitaltrust.com",
       RoleDescription:"Learning and building scalable applications in different technologies spanning from sping boot to .NET MVC",
     }
   ],
