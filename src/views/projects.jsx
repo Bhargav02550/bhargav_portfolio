@@ -7,7 +7,7 @@ const Work = () => {
       <MakeCenter>
         <h1 className="heading">Recent Works</h1>
         <div className="flex flex-col gap-10">
-          {data.workExperience.map((project) => (
+          {data.projects.map((project) => (
             <>
               <FullCard project={project} />{" "}
             </>

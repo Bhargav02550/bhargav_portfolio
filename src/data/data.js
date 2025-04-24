@@ -5,7 +5,7 @@ export const data = {
     "I’m a designer and developer from India with high passion of creating softwares That looks and works great...",
   email: "bhargav.pavan.025@gmail.com",
   phone: "+91 9133485888",
-  workExperience: [
+  projects: [
     {
       id: 1,
       title: "Web developer | EnigmaCV",
@@ -44,5 +44,17 @@ export const data = {
       link: "https://github.com/bhargav02550/app-devops",
       techUsed: ["Dart", "Flutter", "Firebase", "Git", "Github"],
     },
+  ],
+  workexperience:[
+    {
+      id:1,
+      CompanyName:"Digital Trust Technologies",
+      Designation:"Software Engineer Trainee",
+      StartDate:"03/02/2025",
+      EndDate:"Present",
+      CompanyLogoURL:"https://iamdigitaltrust.com/wp-content/uploads/2022/09/new-logo.jpg",
+      CompanyWebSiteURL:"https://iamdgitaltrust.com",
+      RoleDescription:"Learning and building scalable applications in different technologies spanning from sping boot to .NET MVC",
+    }
   ],
 };
