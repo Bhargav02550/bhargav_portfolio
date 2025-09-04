@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const MakeCenter = (props) => {
   return (
     <div className="w-100vw flex justify-center py-10">
@@ -6,6 +8,10 @@ const MakeCenter = (props) => {
       </div>
     </div>
   );
+};
+
+MakeCenter.propTypes = {
+  children: PropTypes.node.isRequired
 };
 
 export default MakeCenter;

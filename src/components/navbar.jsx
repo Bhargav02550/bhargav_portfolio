@@ -51,17 +51,6 @@ const Navbar = () => {
               </span>
             </div>
           
-          {/* <div className="bg-black text-white h-6 flex flex-col justify-center items-center">
-            <marquee direction="right" behavior="scroll" scrollamount="10">
-              <h3 className="text-xl md:text-sm font-bold">
-                Welcome to my website!
-              </h3>
-              ||
-              <h3 className="text-xl md:text-sm font-bold">
-                Thank you for visiting my portfolio.
-              </h3>
-            </marquee>
-          </div> */}
         </div>
       )}
       {/* mobile modal */}

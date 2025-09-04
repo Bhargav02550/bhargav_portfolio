@@ -1,5 +1,6 @@
 import { techData } from "../../data/tech-data";
 import TechChip from "../tech-chip";
+import PropTypes from 'prop-types';
 
 const FullCard = ({ project }) => {
   return (
@@ -39,6 +40,15 @@ const FullCard = ({ project }) => {
       </div>
     </div>
   );
+};
+
+FullCard.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    techUsed: PropTypes.arrayOf(PropTypes.string)
+  }).isRequired
 };
 
 export default FullCard;

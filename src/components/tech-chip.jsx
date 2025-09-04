@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const TechChip = ({ tech }) => {
   return (
     <>
@@ -11,6 +13,13 @@ const TechChip = ({ tech }) => {
       </div>
     </>
   );
+};
+
+TechChip.propTypes = {
+  tech: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired
+  }).isRequired
 };
 
 export default TechChip;

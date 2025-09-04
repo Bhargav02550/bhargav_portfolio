@@ -1,7 +1,6 @@
 import MakeCenter from "../components/make-center";
 import { data } from "../data/data";
 const Hero = () => {
-  console.log(screen.width);
   return (
     <div id="about">
       <MakeCenter>

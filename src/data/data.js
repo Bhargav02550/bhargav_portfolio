@@ -50,7 +50,7 @@ export const data = {
       id:1,
       CompanyName:"Digital Trust Technologies",
       Designation:"Software Engineer Trainee",
-      StartDate:"03/02/2025",
+      StartDate:"03/02/2024",
       EndDate:"Present",
       CompanyLogoURL:"https://iamdigitaltrust.com/wp-content/uploads/2022/09/new-logo.jpg",
       CompanyWebSiteURL:"https://iamdigitaltrust.com",
