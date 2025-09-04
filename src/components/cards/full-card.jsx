@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const FullCard = ({ project }) => {
   return (
-    <div className="full-card w-80vw md:w-60vw smooth-trasnsition">
+    <div className="full-card w-full max-w-4xl smooth-trasnsition">
       <div className="   flex justify-between items-center">
         <h1 className="text-2xl font-medium p-4">{project.title}</h1>
         <a

@@ -22,7 +22,7 @@ const Navbar = () => {
     >
       {!showModal && (
       
-          <div className="w-full 2xl:w-60vw flex justify-between py-4 md:py-5 md:px-5 px-2 navblur text-center rounded-lg">
+          <div className="w-full max-w-6xl flex justify-between py-4 md:py-5 md:px-6 px-4 navblur text-center rounded-lg mx-4">
             <div>
               <div className="cursor-pointer">
                 <h1 className="text-lg">

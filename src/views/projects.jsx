@@ -6,9 +6,15 @@ const Work = () => {
     <div id="work">
       <MakeCenter>
         <h1 className="heading">Recent Works</h1>
-        <div className="flex flex-col gap-10">
-          {data.projects.map((project) => (
-            <FullCard key={project.id} project={project} />
+        <div className="flex flex-col gap-10 w-full">
+          {data.projects.map((project, index) => (
+            <div 
+              key={project.id} 
+              className="fade-in"
+              style={{ animationDelay: `${index * 0.2}s` }}
+            >
+              <FullCard project={project} />
+            </div>
           ))}
         </div>
       </MakeCenter>

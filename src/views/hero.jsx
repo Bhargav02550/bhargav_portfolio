@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div id="about">
       <MakeCenter>
-        <div className="pt-20">
+        <div className="pt-20 fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl  leading-normal lg:leading-relaxed md:py-30">
             I’m <span className="font-bold">{data.name}</span> - an enthusiastic
             <span className="font-medium"> designer & developer</span> based in

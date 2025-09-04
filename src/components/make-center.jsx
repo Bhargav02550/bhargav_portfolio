@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 
 const MakeCenter = (props) => {
   return (
-    <div className="w-100vw flex justify-center py-10">
-      <div className="w-80p 2xl:w-60vw min-h-90vh flex flex-col justify-center items-center">
+    <div className="w-full flex justify-center py-10 px-4">
+      <div className="w-full max-w-6xl min-h-screen flex flex-col justify-center items-center">
         {props.children}
       </div>
     </div>

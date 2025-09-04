@@ -7,7 +7,7 @@ const Initiatives = () => {
         <h1 className="heading">Work Experience</h1>
         <div className="flex flex-col gap-10">
             {data.workexperience.map((workexperience) => 
-            <div key={workexperience.id} className="full-card w-80vw md:w-60vw smooth-trasnsition">
+            <div key={workexperience.id} className="full-card w-full max-w-4xl smooth-trasnsition">
               <div className="   flex justify-between items-center">
                 <h1 className="text-2xl font-medium p-4">{workexperience.CompanyName}</h1>
                 <img src={workexperience.CompanyLogoURL} alt={`${workexperience.CompanyName} logo`} className="h-10 cursor-pointer" onClick={()=>window.open(workexperience.CompanyWebSiteURL)}/>
