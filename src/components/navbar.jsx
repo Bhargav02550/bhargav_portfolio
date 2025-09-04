@@ -22,11 +22,11 @@ const Navbar = () => {
     >
       {!showModal && (
       
-          <div className="w-full 2xl:w-60vw flex justify-between py-4 md:py-5 md:px-5 px-2 backdrop-blur-lg bg-gray-200 bg-opacity-50 text-center rounded-lg">
+          <div className="w-full 2xl:w-60vw flex justify-between py-4 md:py-5 md:px-6 px-4 navblur text-center rounded-2xl mx-4">
             <div>
               <div className="cursor-pointer">
-                <h1 className="text-lg">
-                  I&apos;m <span className="font-bold">Bhargav</span>
+                <h1 className="text-lg font-bold text-white">
+                  I&apos;m <span className="text-white">Bhargav</span>
                 </h1>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <div className="block md:hidden">
               <span
                 onClick={() => setShowModal(true)}
-                className="material-symbols-outlined cursor-pointer"
+                className="material-symbols-outlined cursor-pointer text-white hover:text-gray-200 transition-colors"
               >
                 menu
               </span>

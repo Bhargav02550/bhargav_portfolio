@@ -7,7 +7,7 @@ const TechChip = ({ tech }) => {
           src={tech.image}
           alt={tech.name}
         />
-        <p className=" text-xs">{tech.name}</p>
+        <p className="text-xs text-white font-medium">{tech.name}</p>
       </div>
     </>
   );
