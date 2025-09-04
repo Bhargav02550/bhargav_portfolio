@@ -7,7 +7,7 @@ import Initives from "./views/workex";
 
 function App() {
   return (
-    <div className="text-black ">
+    <div className="text-white min-h-screen">
       <Navbar />
       <Hero />
       <Initives />

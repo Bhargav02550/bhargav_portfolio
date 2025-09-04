@@ -10,13 +10,14 @@ const Contact = () => {
           {" "}
           <p className="pb-10 text-purple-100 text-xl hover:text-white transition-colors">bhargav.pavan.025@gmail.com</p>
         </a>
-        <div className="flex flex-wrap justify-center items-center gap-16 ">
+        <div className="flex flex-wrap justify-center items-center gap-16 pb-20">
 
           {/* linkedIn */}
           <a
             target="_blank"
             rel="noreferrer"
             href="https://linkedin.com/in/kumar-penke"
+            className="social-icon"
           >
             <svg
               width="48"
@@ -36,6 +37,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
             href="https://github.com/bhargav02550"
+            className="social-icon"
           >
             <svg
               width="48"
@@ -61,6 +63,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
             href="https://wa.me/+919133485888"
+            className="social-icon"
           >
             <svg
               width="56"

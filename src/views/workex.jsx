@@ -7,8 +7,8 @@ const Initives = () => {
       <MakeCenter>
         <h1 className="heading">Work Experience</h1>
         <div className="flex flex-col gap-10">
-            {data.workexperience.map((workexperience) => 
-            <div className="full-card w-80vw md:w-60vw smooth-trasnsition">
+            {data.workexperience.map((workexperience, index) => 
+            <div key={index} className="full-card w-80vw md:w-60vw smooth-trasnsition">
               <div className="   flex justify-between items-center">
                 <h1 className="text-2xl font-medium p-4 text-white">{workexperience.CompanyName}</h1>
                 <img src={workexperience.CompanyLogoURL} className="h-10 cursor-pointer" onClick={()=>window.open(workexperience.CompanyWebSiteURL)}/>
