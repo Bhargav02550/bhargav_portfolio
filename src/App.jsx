@@ -7,7 +7,7 @@ import Initiatives from "./views/workex";
 
 function App() {
   return (
-    <div className="text-black ">
+    <div className="text-white">
       <Navbar />
       <Hero />
       <Initiatives />

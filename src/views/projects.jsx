@@ -8,9 +8,7 @@ const Work = () => {
         <h1 className="heading">Recent Works</h1>
         <div className="flex flex-col gap-10">
           {data.projects.map((project) => (
-            <>
-              <FullCard project={project} />{" "}
-            </>
+            <FullCard key={project.id} project={project} />
           ))}
         </div>
       </MakeCenter>

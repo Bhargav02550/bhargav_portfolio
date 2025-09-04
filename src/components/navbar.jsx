@@ -22,7 +22,7 @@ const Navbar = () => {
     >
       {!showModal && (
       
-          <div className="w-full 2xl:w-60vw flex justify-between py-4 md:py-5 md:px-5 px-2 backdrop-blur-lg bg-gray-200 bg-opacity-50 text-center rounded-lg">
+          <div className="w-full 2xl:w-60vw flex justify-between py-4 md:py-5 md:px-5 px-2 navblur text-center rounded-lg">
             <div>
               <div className="cursor-pointer">
                 <h1 className="text-lg">
@@ -55,7 +55,7 @@ const Navbar = () => {
       )}
       {/* mobile modal */}
       <div
-        className={`fixed top-0 left-0 h-full w-full backdrop-blur-lg rounded-sm z-50 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 h-full w-full navmobileblur rounded-sm z-50 transform transition-transform duration-300 ease-in-out ${
           showModal ? "translate-x-0" : "-translate-x-full"
         }`}
       >
